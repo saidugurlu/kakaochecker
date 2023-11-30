@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# TypeScript configuration
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Test built output
+/e2e/*.js
+/e2e/*.map
+
+# Angular build directories
+/dist/
+/dist-server/
+/dist-ssr/
+/dist-hydrate/
+
+# Output of 'ng build' and 'ng add' commands
+/tmp/
+/ng-update-internals/
+/$$_lazy_route_resource lazy namespace
