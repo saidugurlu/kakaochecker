@@ -1,1 +1,9 @@
-<p>gallery works!</p>
+<div class="gallery">
+    <div *ngFor="let bean of beans">
+      <img [src]="bean.path" alt="Bean image">
+      <p>Quality: {{ bean.quality }}</p>
+    </div>
+  </div>
+  
+
+  <h1>test</h1>
